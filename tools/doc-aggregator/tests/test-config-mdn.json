@@ -1,0 +1,20 @@
+{
+  "maxConcurrent": 2,
+  "delay": 2000,
+  "maxDepth": 2,
+  "updateMode": "smart",
+  "reCrawlAfterDays": 0.001,
+  "checkContentHash": true,
+  "sites": [
+    {
+      "name": "MDN Web APIs",
+      "startUrl": "https://developer.mozilla.org/en-US/docs/Web/API",
+      "urlPattern": "https://developer.mozilla.org/en-US/docs/Web/API",
+      "outputFile": "mdn-web-api-test.md",
+      "updateMode": "smart",
+      "reCrawlAfterDays": 0.001,
+      "checkContentHash": true
+    }
+  ]
+}
+

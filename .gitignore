@@ -1,0 +1,24 @@
+# Progress tracking files (can be regenerated)
+*-progress.json
+
+# Node modules (if any are added in the future)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+

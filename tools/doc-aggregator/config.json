@@ -1,0 +1,19 @@
+{
+  "maxConcurrent": 4,
+  "delay": 3000,
+  "maxDepth": 10,
+  "updateMode": "smart",
+  "reCrawlAfterDays": 30,
+  "checkContentHash": true,
+  "sites": [
+    {
+      "name": "Example Documentation Site",
+      "startUrl": "https://example.com/docs",
+      "urlPattern": "https://example.com/docs",
+      "outputFile": "example-docs.md",
+      "updateMode": "smart",
+      "reCrawlAfterDays": 30,
+      "checkContentHash": true
+    }
+  ]
+}
